@@ -1,4 +1,7 @@
-package com.haise.wordlerest;
+package com.haise.wordlerest.persist;
 
-public interface LetterRepository extends org.springframework.data.jpa.repository.JpaRepository<com.haise.wordlerest.persist.Letter, java.lang.Long> {
+import com.haise.wordlerest.persist.Letter;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LetterRepository extends JpaRepository<Letter, Long> {
 }

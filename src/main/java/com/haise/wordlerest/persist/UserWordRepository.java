@@ -1,4 +1,7 @@
-package com.haise.wordlerest;
+package com.haise.wordlerest.persist;
 
-public interface UserWordRepository extends org.springframework.data.jpa.repository.JpaRepository<com.haise.wordlerest.persist.UserWord, java.lang.Long> {
+import com.haise.wordlerest.persist.UserWord;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserWordRepository extends JpaRepository<UserWord, Long> {
 }
