@@ -22,6 +22,7 @@ public class UserWord implements Serializable {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    //TODO:validate
     @Column(name = "word", nullable = false, length = 5)
     private String word;
 
